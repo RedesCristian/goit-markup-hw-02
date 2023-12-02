@@ -1,0 +1,84 @@
+:root {
+  --font-family: roboto, raleway;
+  --menu-color: #2e2f42;
+  --light-color: #fff;
+  --dark-color: #434455;
+  --half-logo-color: #4d5ae5;
+}
+.main-section-title {
+  color: var(--light-color);
+  text-align: center;
+
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.first-logo-color {
+  color: var(--half-logo-color);
+}
+.second-logo-color {
+  color: var(--menu-color);
+}
+.footer-logo-color {
+  color: var(--light-color);
+}
+.logo {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.adress-details {
+  color: var(--menu-color);
+}
+.contacts-details {
+  color: var(--dark-color);
+}
+.remove-disc-list {
+  list-style-type: none;
+}
+.menu-list {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.menu-list:hover {
+  color: #404bbf;
+}
+.order-service-button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  color: var(--light-color);
+  background-color: var(--half-logo-color);
+  border: none;
+  cursor: pointer;
+}
+.order-service-button:hover {
+  background-color: var(--menu-color);
+}
+
+.effective-solution-background {
+  background-color: var(--menu-color);
+}
