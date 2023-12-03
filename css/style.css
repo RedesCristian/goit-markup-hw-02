@@ -1,6 +1,7 @@
 :root {
-  --font-family: roboto, raleway;
-  --main-color-navy-blue: #2e2f42;
+  --logo-font-family: raleway;
+  --body-font-family: Roboto, sans-serif;
+  --main-color-nobotoavy-blue: #2e2f42;
   --main-header-color: #ffffffff;
   --paragraph-color: #434455;
   --first-logo-color: #4d5ae5;
@@ -10,16 +11,17 @@
 }
 .logo {
   font-size: 18px;
-  font-style: var(--logo-font-family);
+  font-style: "raleway";
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
-}
-.primary-logo-part {
   color: --first-logo-color;
 }
+.link {
+  text-decoration: none;
+}
+
 .second-logo-part {
   color: var(--main-color-navy-blue);
 }
@@ -48,7 +50,7 @@
   text-decoration: none;
 }
 .body-section {
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: var(--main-header-color);
   color: var(--paragraph-color);
 }
@@ -67,7 +69,6 @@
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
   color: var(--main-header-color);
-
   width: 496px;
 }
 .main-header-section {
