@@ -6,6 +6,7 @@
   --first-logo-color: #4d5ae5;
   --footer-logo-description-color: #f4f4fd;
   --logo-font-family: raleway;
+  --hover-color: #404bbf;
 }
 .logo {
   font-size: 18px;
@@ -32,16 +33,16 @@
   text-decoration: none;
 }
 .navigation:hover {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 .navigation:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
-.nav-link:hover: {
-  color: #404bbf;
+.nav-link:hover {
+  color: var(--hover-color);
 }
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 .nav-link {
   text-decoration: none;
@@ -54,19 +55,26 @@
 
 .paragraph {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   color: var(--paragraph-color);
 }
 .main-header {
+  text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
   color: var(--main-header-color);
+
+  width: 496px;
+}
+.main-header-section {
+  background-color: (--main-color-navy-blue);
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
 }
 .secondary-header {
   font-size: 36px;
@@ -88,9 +96,7 @@
 .remove-disc-list {
   list-style: none;
 }
-.main-header-section {
-  background-color: (--main-color-navy-blue);
-}
+
 .order-service-button {
   font-size: 16px;
   font-style: normal;
@@ -99,7 +105,11 @@
   letter-spacing: 0.64px;
   color: var(--main-header-color);
   background-color: var(--first-logo-color);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
-.order-service-button:hover:focus {
-  background-color: #404bbf;
+.order-service-button:hover {
+  background-color: --hover-color;
 }
