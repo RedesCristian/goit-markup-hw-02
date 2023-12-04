@@ -5,7 +5,7 @@
   --main-header-color: #ffffffff;
   --paragraph-color: #434455;
   --first-logo-color: #4d5ae5;
-  --footer-logo-description-color: #f4f4fd;
+  --footer-logo-description-color: #f4f4f4fd;
   --logo-font-family: raleway;
   --hover-color: #404bbf;
 }
@@ -14,7 +14,7 @@
   font-style: var(--logo-font-family);
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 003em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-logo-color);
   font-family: "Raleway", sans-serif;
@@ -26,7 +26,7 @@
   color: #2e2f42;
 }
 .second-logo-part {
-  color: var(--main-header-color);
+  color: var(--footer-logo-description-color);
 }
 .navigation {
   font-size: 16;
@@ -67,10 +67,10 @@
 }
 .main-header {
   text-align: center;
-  font-size: 56;
+  font-size: 56px;
   font-weight: 700;
-  line-height: 60; /* 107.143% */
-  letter-spacing: 1.12;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
   color: var(--main-header-color);
 }
 .main-header-section {
@@ -98,13 +98,15 @@
 }
 
 .order-service-button {
-  font-size: 16;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24; /* 150% */
-  letter-spacing: 0.64;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
   color: var(--main-header-color);
   background-color: var(--first-logo-color);
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 .order-service-button:hover {
   background-color: var(--hover-color);
@@ -119,6 +121,7 @@
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  color: var(--footer-logo-description-color);
 }
 .adress-text {
   color: var(--paragraph-color);
