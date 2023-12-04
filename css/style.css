@@ -26,7 +26,7 @@
   color: #2e2f42;
 }
 .second-logo-part {
-  color: var(--footer-logo-description-color);
+  color: #f4f4f4fd;
 }
 .navigation {
   font-size: 16;
@@ -56,6 +56,8 @@
   font-family: Roboto, sans-serif;
   background-color: var(--main-header-color);
   color: var(--paragraph-color);
+  width: 1440px;
+  height: 2592px;
 }
 
 .paragraph {
@@ -77,13 +79,14 @@
   background-color: var(--main-color-navy-blue);
 }
 .secondary-header {
-  font-size: 36;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40; /* 111.111% */
-  letter-spacing: 0.72;
+  line-height: 1.2; /* 111.111% */
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-color-navy-blue);
+  text-align: center;
 }
 .subtiltes {
   font-size: 20px;
@@ -109,7 +112,7 @@
   cursor: pointer;
 }
 .order-service-button:hover {
-  background-color: var(--hover-color);
+  background-color: #404bbf;
 }
 .list {
   list-style: none;
@@ -132,4 +135,10 @@
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+}
+.our-team-section {
+  color: #f4f4fd;
+}
+.what-are-we-doing-section {
+  background-color: var(--main-header-color);
 }
