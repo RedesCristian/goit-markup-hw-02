@@ -1,7 +1,7 @@
 :root {
-  --logo-font-family: raleway;
-  --body-font-family: Roboto, sans-serif;
-  --main-color-nobotoavy-blue: #2e2f42;
+  --logo-font-family: "raleway";
+  --body-font-family: "Roboto", sans-serif;
+  --main-color-navy-blue: #2e2f42;
   --main-header-color: #ffffffff;
   --paragraph-color: #434455;
   --first-logo-color: #4d5ae5;
@@ -10,26 +10,29 @@
   --hover-color: #404bbf;
 }
 .logo {
-  font-size: 18px;
-  font-style: "raleway";
+  font-size: 18;
+  font-style: var(--logo-font-family);
   font-weight: 800;
-  line-height: 1.17px;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.54;
   text-transform: uppercase;
-  color: --first-logo-color;
+  color: var(--first-logo-color);
+  font-family: "raleway", sans-serif;
 }
 .link {
   text-decoration: none;
 }
-
+.upper-logo-color {
+  color: #2e2f42;
+}
 .second-logo-part {
-  color: var(--main-color-navy-blue);
+  color: var(--main-header-color);
 }
 .navigation {
-  font-size: 16px;
+  font-size: 16;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24; /* 150% */
   letter-spacing: 0.32px;
   color: var(--main-color-navy-blue);
   text-decoration: none;
@@ -57,32 +60,28 @@
 
 .paragraph {
   font-size: 16px;
+  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   color: var(--paragraph-color);
 }
 .main-header {
   text-align: center;
-  font-size: 56px;
-  font-style: normal;
+  font-size: 56;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
-  letter-spacing: 1.12px;
+  line-height: 60; /* 107.143% */
+  letter-spacing: 1.12;
   color: var(--main-header-color);
-  width: 496px;
 }
 .main-header-section {
-  background-color: (--main-color-navy-blue);
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
+  background-color: var(--main-color-navy-blue);
 }
 .secondary-header {
-  font-size: 36px;
+  font-size: 36;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
-  letter-spacing: 0.72px;
+  line-height: 40; /* 111.111% */
+  letter-spacing: 0.72;
   text-transform: capitalize;
   color: var(--main-color-navy-blue);
 }
@@ -90,8 +89,8 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 24; /* 120% */
+  letter-spacing: 0.4;
   color: var(--main-color-navy-blue);
 }
 .remove-disc-list {
@@ -99,18 +98,35 @@
 }
 
 .order-service-button {
-  font-size: 16px;
+  font-size: 16;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  line-height: 24; /* 150% */
+  letter-spacing: 0.64;
   color: var(--main-header-color);
   background-color: var(--first-logo-color);
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
 }
 .order-service-button:hover {
-  background-color: --hover-color;
+  background-color: var(--hover-color);
+}
+.list {
+  list-style: none;
+}
+.footer-paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.adress-text {
+  color: var(--paragraph-color);
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
