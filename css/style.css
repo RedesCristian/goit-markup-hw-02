@@ -10,14 +10,14 @@
   --hover-color: #404bbf;
 }
 .logo {
-  font-size: 18;
+  font-size: 18px;
   font-style: var(--logo-font-family);
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54;
+  letter-spacing: 003em;
   text-transform: uppercase;
   color: var(--first-logo-color);
-  font-family: "raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .link {
   text-decoration: none;
