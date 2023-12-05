@@ -21,7 +21,9 @@
 }
 .link {
   text-decoration: none;
+  line-height: 1.5;
 }
+
 .upper-logo-color {
   color: #2e2f42;
 }
