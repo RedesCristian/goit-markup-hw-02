@@ -122,7 +122,7 @@
   text-transform: capitalize;
   color: var(--navy-blue-color);
 }
-.seection4 {
+.section4 {
   background-color: #f4f4fd;
 }
 .image-section4 {
@@ -132,10 +132,30 @@
   background-color: var(--navy-blue-color);
 }
 .footer-span {
-  color: #f4f4f4fd;
+  color: #f4f4fd;
 }
 .footer-p {
   line-height: 1.5;
   color: var(--cloud-color);
   letter-spacing: 0.02em;
+}
+/* pagina portfolio*/
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris-color);
+  background-color: var(--cloud-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffffff;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.h1-portfolio {
+  text-align: center;
+  font-family: "Roboto" sans-serif;
 }
