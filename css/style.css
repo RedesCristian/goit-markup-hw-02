@@ -4,6 +4,8 @@
   --navy-blue-color: #2e2f42;
   --iris-color: #4d5ae5;
   --slate-color: #434455;
+  --white-color: #fff;
+  --ocean-color: #404bbf;
 }
 
 .body-section {
@@ -36,15 +38,14 @@
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 }
-:hover {
-  color: #404bbf;
+.nav-elements:hover {
+  color: var(--ocean-color);
 }
-:focus {
+.nav-link:focus {
   color: #404bbf;
 }
 .adress {
-  color: var(--slate-color);
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -54,4 +55,19 @@
 }
 .adress-color {
   color: var(--slate-color);
+}
+
+.adress-color:hover,
+.adress-color:focus {
+  color: var(--ocean-color);
+}
+.header-title {
+  /* Header 1 */
+  font-family: "Roboto";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+  color: var(--white-color);
 }
