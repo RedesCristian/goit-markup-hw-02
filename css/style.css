@@ -113,3 +113,17 @@
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
+.section3 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue-color);
+}
+.seection4 {
+  background-color: #f4f4fd;
+}
+.image-section4 {
+  background-color: #ffffffff;
+}
