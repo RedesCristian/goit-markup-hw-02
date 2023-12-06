@@ -38,8 +38,9 @@
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 }
-.nav-elements:hover {
-  color: var(--ocean-color);
+.nav-elements:hover,
+.nav-elements:focus {
+  color: #404bbf;
 }
 .nav-link:focus {
   color: #404bbf;
