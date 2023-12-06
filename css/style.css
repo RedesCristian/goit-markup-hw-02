@@ -67,7 +67,26 @@
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
   color: var(--white-color);
+  text-align: center;
+  line-height: 1.07;
+}
+.header-section {
+  background-color: var(--navy-blue-color);
+}
+.order-service-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  font-style: normal;
+}
+.order-service-button:hover,
+.order-service-button:focus {
+  background-color: #404bbf;
 }
