@@ -14,7 +14,7 @@
   background-color: #ffffffff;
 }
 .logo {
-  font-family: var(--nav-font-family);
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -91,6 +91,15 @@
   background-color: #404bbf;
 }
 .advantages-title {
+  font-size: 36px;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--navy-blue-color);
+  text-align: center;
+  color: var(--navy-blue-color);
+}
+.advantages-sub-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
