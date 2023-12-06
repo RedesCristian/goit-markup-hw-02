@@ -6,6 +6,7 @@
   --slate-color: #434455;
   --white-color: #fff;
   --ocean-color: #404bbf;
+  --cloud-color: #f4f4fd;
 }
 
 .body-section {
@@ -126,4 +127,15 @@
 }
 .image-section4 {
   background-color: #ffffffff;
+}
+.footer-studio {
+  background-color: var(--navy-blue-color);
+}
+.footer-span {
+  color: #f4f4f4fd;
+}
+.footer-p {
+  line-height: 1.5;
+  color: var(--cloud-color);
+  letter-spacing: 0.02em;
 }
