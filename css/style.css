@@ -114,7 +114,7 @@
   letter-spacing: 0.02em;
   color: var(--slate-color);
 }
-.section3 {
+.section-c {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -122,10 +122,10 @@
   text-transform: capitalize;
   color: var(--navy-blue-color);
 }
-.section4 {
+.section-d {
   background-color: #f4f4fd;
 }
-.image-section4 {
+.image-section-d {
   background-color: #ffffffff;
 }
 .footer-studio {
